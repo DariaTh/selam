@@ -1,0 +1,29 @@
+body.contrast .contact-input::placeholder {
+    color: #ffffff;
+}
+
+body.contrast form input::placeholder {
+    color: #ffffff;
+}
+body.contrast input#cf_fname::placeholder, body.contrast input#cf_phone::placeholder, body.contrast input#cf_miles::placeholder {
+    color: #ffffff;
+}
+
+body.contrast input#cf_fname, body.contrast input#cf_phone, body.contrast input#cf_miles, body.contrast input#cf_submit {
+    border: 1px solid #ffffff;
+}
+
+[role="tabpanel"].is-hidden {
+    display: none;
+}
+
+@media only screen and (height: 341px) and (width: 720px) {
+    section.section-form-1, section.section-form-2 {
+        background-position: right;
+        background-size: contain;
+    }
+    section.section-form-1 .form-wrapper, section.section-form-2 .form-wrapper {
+        padding: 30px 200px 30px 0;
+        margin-top: 260px;
+    }
+ }
