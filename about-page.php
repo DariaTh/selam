@@ -44,7 +44,7 @@
 
 
                 </p>
-                <button class="button light-blue">
+                <button class="button light-blue" title =  "קרא עוד אודות סלע סוכנות לביטוח בע”מ " >
                     קרא עוד
                 </button>
             </div>
@@ -296,7 +296,7 @@
 
 
                 </p>
-                <button class="button light-blue">
+                <button class="button light-blue" title = " המשך תוכן גילוי נאות ">
                     קרא עוד
                 </button>
             </div>
@@ -376,7 +376,7 @@
                     </ol>
 
                 </div>
-                <button class="button light-blue">
+                <button class="button light-blue" title = " המשך תוכן אמנת שירות " >
                     קרא עוד
                 </button>
             </div>

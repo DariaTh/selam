@@ -61,7 +61,7 @@
                                     <h1><?php the_title(); ?></h1>
                                     <p> מאת: <?php echo get_the_author(); ?> </p>
                                     <div class="excerpt"><?php the_excerpt(); ?></div>
-                                    <a class="button" href="<?php echo get_permalink(); ?>">המשך לקרוא</a>
+                                    <a class="button" href="<?php echo get_permalink(); ?>" title="<?php the_title(); ?>">המשך לקרוא</a>
                                 </div>
                                 <div class="post-img">
                                     <?php the_post_thumbnail('full') ?>
