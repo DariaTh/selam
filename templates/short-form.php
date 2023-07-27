@@ -1,6 +1,7 @@
 <form class="short-form">
     <div class="row1">
         <div class="input-wrapper">
+            <label class="form-label" for="full-name">*שם מלא</label>
             <input type="text" name="full-name" id="full-name" placeholder="*שם מלא">
             <span class="error-message" id="full-name-error"></span>
         </div>

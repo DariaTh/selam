@@ -17,6 +17,10 @@ body.contrast input#cf_fname, body.contrast input#cf_phone, body.contrast input#
     display: none;
 }
 
+body.contrast p.hidden_part:focus {
+    outline: 2px solid white;
+}
+
 @media only screen and (height: 341px) and (width: 720px) {
     section.section-form-1, section.section-form-2 {
         background-position: right;

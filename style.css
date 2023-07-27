@@ -1451,10 +1451,7 @@ section.about-text .wrapper {
     margin-bottom: 90px;
 }
 section.about-text p {
-    /*max-width: 1000px;*/
     margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
     font-size: 22px;
 }
 .light-blue{
@@ -1879,13 +1876,26 @@ p.text-line a {
 
 #about-page .text-block1{
     max-height: 155px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
 #about-page .text-block1.open{
     max-height: 555px;
 }
 
+p.hidden_part:focus {
+    border: 1px dashed white;
+    outline-offset: -2px;
+    outline: 2px solid black;
+}
+
 #about-page .text-block2{
     max-height: 185px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 #about-page .text-block2.open{
     max-height: 525px;

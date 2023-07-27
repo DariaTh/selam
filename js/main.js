@@ -249,7 +249,10 @@ jQuery(document).ready(function($){
     /*   Button   */
     Array.from(document.querySelectorAll("#about-page .text-block + button")).forEach(button => {
          button.addEventListener("click", (e) => {
-             e.target.parentNode.querySelector(".text-block").classList.toggle("open")
+             e.target.parentNode.querySelector(".text-block").classList.toggle("open");
+             if(e.target.parentNode.querySelector(".text-block").classList.contains("open")){
+                e.target.parentNode.querySelector(".text-block .hidden_part").focus();
+             }
          })
     })
 
