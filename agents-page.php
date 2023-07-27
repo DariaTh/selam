@@ -37,8 +37,8 @@
     
             <div class="feature-list list">
                 <div class="feature-item">
-                    <img class="client-desktop-img" src="<?php echo get_stylesheet_directory_uri()."/img/feature-clients1.png"; ?>" alt="Client">
-                    <img class="client-mobile-img" src="<?php echo get_stylesheet_directory_uri()."/img/feature-clients-mobile1.png"; ?>" alt="Client">
+                    <img class="client-desktop-img" src="<?php echo get_stylesheet_directory_uri()."/img/feature-clients1.png"; ?>" alt="Client רפי דיין">
+                    <img class="client-mobile-img" src="<?php echo get_stylesheet_directory_uri()."/img/feature-clients-mobile1.png"; ?>" alt="Client רפי דיין">
                     <div class="feature-box">
                     <h3 class="feature-name">רפי דיין</h3>
                     <p class="feature-text">מפקח סוכנים</p>
@@ -59,8 +59,8 @@
                 </div>
 
                 <div class="feature-item">
-                    <img class="client-desktop-img" src="<?php echo get_stylesheet_directory_uri()."/img/feature-clients2.png"; ?>" alt="Client" >
-                    <img class="client-mobile-img" src="<?php echo get_stylesheet_directory_uri()."/img/feature-clients-mobile2.png"; ?>" alt="Client">
+                    <img class="client-desktop-img" src="<?php echo get_stylesheet_directory_uri()."/img/feature-clients2.png"; ?>" alt="Client גיא בן נר" >
+                    <img class="client-mobile-img" src="<?php echo get_stylesheet_directory_uri()."/img/feature-clients-mobile2.png"; ?>" alt="Client גיא בן נר" >
                     <div class="feature-box">
                     <h3 class="feature-name">גיא בן נר</h3>
                     <p class="feature-text">מפקח סוכנים</p>
@@ -80,8 +80,8 @@
                 </div>
 
                 <div class="feature-item">
-                    <img class="client-desktop-img" src="<?php echo get_stylesheet_directory_uri()."/img/feature-clients3.png"; ?>" alt="Client" >
-                    <img class="client-mobile-img" src="<?php echo get_stylesheet_directory_uri()."/img/feature-clients-mobile3.png"; ?>" alt="Client">
+                    <img class="client-desktop-img" src="<?php echo get_stylesheet_directory_uri()."/img/feature-clients3.png"; ?>" alt="Client לירון מאיר">
+                    <img class="client-mobile-img" src="<?php echo get_stylesheet_directory_uri()."/img/feature-clients-mobile3.png"; ?>" alt="Client לירון מאיר">
                     <div class="feature-box">
                     <h3 class="feature-name">לירון מאיר</h3>
                     <p class="feature-text">מפקח סוכנים</p>
@@ -100,8 +100,8 @@
                 </div>
 
                 <div class="feature-item">
-                    <img class="client-desktop-img" src="<?php echo get_stylesheet_directory_uri()."/img/feature-clients4.png"; ?>" alt="Client" >
-                    <img class="client-mobile-img" src="<?php echo get_stylesheet_directory_uri()."/img/feature-clients-mobile4.png"; ?>" alt="Client">
+                    <img class="client-desktop-img" src="<?php echo get_stylesheet_directory_uri()."/img/feature-clients4.png"; ?>" alt="Client אורי אלשיך" >
+                    <img class="client-mobile-img" src="<?php echo get_stylesheet_directory_uri()."/img/feature-clients-mobile4.png"; ?>" alt="Client אורי אלשיך">
                     <div class="feature-box">
                     <h3 class="feature-name">אורי אלשיך</h3>
                     <p class="feature-text">מפקח סוכנים</p>

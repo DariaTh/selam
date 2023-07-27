@@ -211,7 +211,7 @@
                 </div>
             </div>
             <div class="tab-post-wrapper" id="innerTab35"
-                    style="background-image: url('<?php echo get_stylesheet_directory_uri()."/img/home-tabs/tab3/בריאות.png"; ?>')">
+                    style="background-image: url('<?php echo get_stylesheet_directory_uri()."/img/home-tabs/tab3/בריאות.png"; ?> ')">
                 <div class="tab-post" >
                     <p class="title">
                         ביטוח בריאות
