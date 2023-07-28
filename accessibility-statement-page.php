@@ -10,7 +10,7 @@
         </div>
 
         <div class="inner-hero_mobile">
-            <img src="<?php echo get_stylesheet_directory_uri()."/img/accessibility-mobile.jpg"; ?>" width="100%" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri()."/img/accessibility-mobile.jpg"; ?>" width="100%" alt="Man with the laptop">
         </div>
     </section>
 

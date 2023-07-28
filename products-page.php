@@ -10,7 +10,7 @@
         </div>
 
         <div class="inner-hero_mobile">
-            <img src="<?php echo get_stylesheet_directory_uri()."/img/products-hero-mobile.jpg"; ?>" width="100%" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri()."/img/products-hero-mobile.jpg"; ?>" width="100%" alt="Parents smile to children">
         </div>
 
         <a class="moveToNextSectionBtn" href="#sectionFormProducts"><i class="fa fa-angle-down"></i></a>

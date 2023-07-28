@@ -21,7 +21,7 @@
 <header class="header">
     <div class="header-content">
         <div class="logo">
-            <a href="/"><img src="<?php echo get_stylesheet_directory_uri()."/img/logo.png"; ?>" alt=""></a>
+            <a href="/"><img src="<?php echo get_stylesheet_directory_uri()."/img/logo.png"; ?>" alt="Logo"></a>
         </div>
 
         <nav>

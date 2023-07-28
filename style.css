@@ -17,18 +17,6 @@ Text Domain: sela
     font-weight: normal;
 }
 
-@font-face {
-    font-family: Fbtextiller-Light;
-    src: url(http://localhost:8888/selam/wp-content/themes/sela/fonts/fbtextiller-lightwebfont.woff);
-    font-weight: normal;
-}
-@font-face {
-    font-family: Fbtextiller-Black;
-    src: url(http://localhost:8888/selam/wp-content/themes/sela/fonts/fbtextiller-blackwebfont.woff);
-    font-weight: normal;
-}
-
-
 html {
     direction: rtl;
     scroll-behavior: smooth;

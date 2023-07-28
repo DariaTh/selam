@@ -113,7 +113,7 @@ jQuery(document).ready(function($){
 
     /*   Random image on Form  1 */
 
-    selectedImg = 'url(http://localhost:8888/selam/wp-content/themes/sela/img/form1/form-bg' + (Math.floor(Math.random() * 28) + 1) + '.png)';
+    selectedImg = 'url(/wp-content/themes/sela/img/form1/form-bg' + (Math.floor(Math.random() * 28) + 1) + '.png)';
 
     $(".section-form-1").css("background-image", selectedImg);
 
