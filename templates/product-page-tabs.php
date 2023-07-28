@@ -17,7 +17,7 @@
 
             <div class="tab-post-wrapper" id="innerTab2">
                 <div class="tab-img">
-                    <img src="<?php echo get_stylesheet_directory_uri()."/img/home-tabs/tab1/פרסונל אינווסט.png"; ?>" alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri()."/img/home-tabs/tab1/פרסונל אינווסט.png"; ?>" alt="The man is holding a tablet and looking at personal investments">
                 </div>
                 <div class="tab-post" >
                     <p class="title"><span>
@@ -33,7 +33,7 @@
 
             <div class="tab-post-wrapper" id="innerTab3" >
                 <div class="tab-img">
-                    <img src="<?php echo get_stylesheet_directory_uri()."/img/home-tabs/tab1/גלובל נט.png"; ?>" alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri()."/img/home-tabs/tab1/גלובל נט.png"; ?>" alt="The man is holding a tablet and looking at GlobalNET">
                 </div>
                 <div class="tab-post" >
                     <p class="title"><span>
@@ -64,7 +64,7 @@
             </div>
             <div class="tab-post-wrapper" id="innerTab21">
                 <div class="tab-img">
-                    <img src="<?php echo get_stylesheet_directory_uri()."/img/home-tabs/tab2/קרן פנסיה.png"; ?>" alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri()."/img/home-tabs/tab2/קרן פנסיה.png"; ?>" alt="Grandfather and grandson launch an airplane">
                 </div>
                 <div class="tab-post" >
                     <p class="title"><span>
@@ -79,7 +79,7 @@
             </div>
             <div class="tab-post-wrapper" id="innerTab22">
                 <div class="tab-img">
-                    <img src="<?php echo get_stylesheet_directory_uri()."/img/home-tabs/tab2/תיקון 190.png"; ?>" alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri()."/img/home-tabs/tab2/תיקון 190.png"; ?>" alt="The man looks out the window">
                 </div>
                 <div class="tab-post" >
                     <p class="title"><span>
@@ -94,7 +94,7 @@
             </div>
             <div class="tab-post-wrapper" id="innerTab23">
                 <div class="tab-img">
-                    <img src="<?php echo get_stylesheet_directory_uri()."/img/home-tabs/tab2/קופת גמל להשקעה.png"; ?>" alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri()."/img/home-tabs/tab2/קופת גמל להשקעה.png"; ?>" alt="Pink flower with blue butterfly">
                 </div>
                 <div class="tab-post" >
                     <p class="title"><span>
@@ -111,7 +111,7 @@
             </div>
             <div class="tab-post-wrapper" id="innerTab24">
                 <div class="tab-img">
-                    <img src="<?php echo get_stylesheet_directory_uri()."/img/home-tabs/tab2/קרן השתלמות.png"; ?>" alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri()."/img/home-tabs/tab2/קרן השתלמות.png"; ?>" alt="Cheerful woman hugs her husband">
                 </div>
                 <div class="tab-post" >
                     <p class="title"><span>
@@ -130,7 +130,7 @@
             </div>
             <div class="tab-post-wrapper" id="innerTab25">
                 <div class="tab-img">
-                    <img src="<?php echo get_stylesheet_directory_uri()."/img/home-tabs/tab2/פוליסת חיסכון.png"; ?>" alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri()."/img/home-tabs/tab2/פוליסת חיסכון.png"; ?>" alt="Happy grandparents">
                 </div>
                 <div class="tab-post" >
                     <p class="title"><span>
@@ -145,7 +145,7 @@
             </div>
             <div class="tab-post-wrapper" id="innerTab26">
                 <div class="tab-img">
-                    <img src="<?php echo get_stylesheet_directory_uri()."/img/home-tabs/tab2/איחוד קופות.png"; ?>" alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri()."/img/home-tabs/tab2/איחוד קופות.png"; ?>" alt="A happy family">
                 </div>
                 <div class="tab-post" >
                     <p class="title"><span>
@@ -175,7 +175,7 @@
             </div>
             <div class="tab-post-wrapper" id="innerTab31">
                 <div class="tab-img">
-                    <img src="<?php echo get_stylesheet_directory_uri()."/img/home-tabs/tab3/ביטוח מחלות קשות.png"; ?>" alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri()."/img/home-tabs/tab3/ביטוח מחלות קשות.png"; ?>" alt="A female doctor is looking for information on a tablet">
                 </div>
                 <div class="tab-post" >
                     <p class="title"><span>
@@ -193,7 +193,7 @@
             </div>
             <div class="tab-post-wrapper" id="innerTab33">
                 <div class="tab-img">
-                    <img src="<?php echo get_stylesheet_directory_uri()."/img/home-tabs/tab3/אובדן כושר עבודה.png"; ?>" alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri()."/img/home-tabs/tab3/אובדן כושר עבודה.png"; ?>" alt="The right hand is wrapped in a bandage">
                 </div>
                 <div class="tab-post" >
                     <p class="title"><span>
@@ -210,7 +210,7 @@
             </div>
             <div class="tab-post-wrapper" id="innerTab34">
                 <div class="tab-img">
-                    <img src="<?php echo get_stylesheet_directory_uri()."/img/home-tabs/tab3/חיים.png"; ?>" alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri()."/img/home-tabs/tab3/חיים.png"; ?>" alt="Dandelion flower">
                 </div>
                 <div class="tab-post" >
                     <p class="title"><span>
@@ -242,7 +242,7 @@
             </div>
             <div class="tab-post-wrapper" id="innerTab36">
                 <div class="tab-img">
-                    <img src="<?php echo get_stylesheet_directory_uri()."/img/home-tabs/tab3/נסיעות לחול.png"; ?>" alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri()."/img/home-tabs/tab3/נסיעות לחול.png"; ?>" alt="A girl in panama looks at a map">
                 </div>
                 <div class="tab-post" >
                     <p class="title"><span>

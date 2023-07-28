@@ -154,37 +154,37 @@
 
             <div class="brands-wrapper">
                 <div class="brand">
-                    <img src="<?php echo get_stylesheet_directory_uri()."/img/logos/logo1.png"; ?>" alt="" width="100%">
+                    <img src="<?php echo get_stylesheet_directory_uri()."/img/logos/logo1.png"; ?>" alt="Brand logo" width="100%">
                 </div>
                 <div class="brand">
-                    <img src="<?php echo get_stylesheet_directory_uri()."/img/logos/logo2.png"; ?>" alt="" width="100%">
+                    <img src="<?php echo get_stylesheet_directory_uri()."/img/logos/logo2.png"; ?>" alt="Brand logo" width="100%">
                 </div>
                 <div class="brand">
-                    <img src="<?php echo get_stylesheet_directory_uri()."/img/logos/logo3.png"; ?>" alt="" width="100%">
+                    <img src="<?php echo get_stylesheet_directory_uri()."/img/logos/logo3.png"; ?>" alt="Brand logo" width="100%">
                 </div>
                 <div class="brand">
-                    <img src="<?php echo get_stylesheet_directory_uri()."/img/logos/logo4.png"; ?>" alt="" width="100%">
+                    <img src="<?php echo get_stylesheet_directory_uri()."/img/logos/logo4.png"; ?>" alt="Brand logo" width="100%">
                 </div>
                 <div class="brand">
-                    <img src="<?php echo get_stylesheet_directory_uri()."/img/logos/logo5.png"; ?>" alt="" width="100%">
+                    <img src="<?php echo get_stylesheet_directory_uri()."/img/logos/logo5.png"; ?>" alt="Brand logo" width="100%">
                 </div>
                 <div class="brand">
-                    <img src="<?php echo get_stylesheet_directory_uri()."/img/logos/logo6.png"; ?>" alt="" width="100%">
+                    <img src="<?php echo get_stylesheet_directory_uri()."/img/logos/logo6.png"; ?>" alt="Brand logo" width="100%">
                 </div>
                 <div class="brand">
-                    <img src="<?php echo get_stylesheet_directory_uri()."/img/logos/logo7.png"; ?>" alt="" width="100%">
+                    <img src="<?php echo get_stylesheet_directory_uri()."/img/logos/logo7.png"; ?>" alt="Brand logo" width="100%">
+                </div>Brand logo
+                <div class="brand">
+                    <img src="<?php echo get_stylesheet_directory_uri()."/img/logos/logo8.png"; ?>" alt="Brand logo" width="100%">
                 </div>
                 <div class="brand">
-                    <img src="<?php echo get_stylesheet_directory_uri()."/img/logos/logo8.png"; ?>" alt="" width="100%">
+                    <img src="<?php echo get_stylesheet_directory_uri()."/img/logos/logo9.png"; ?>" alt="Brand logo" width="100%">
                 </div>
                 <div class="brand">
-                    <img src="<?php echo get_stylesheet_directory_uri()."/img/logos/logo9.png"; ?>" alt="" width="100%">
+                    <img src="<?php echo get_stylesheet_directory_uri()."/img/logos/logo10.png"; ?>" alt="Brand logo" width="100%">
                 </div>
                 <div class="brand">
-                    <img src="<?php echo get_stylesheet_directory_uri()."/img/logos/logo10.png"; ?>" alt="" width="100%">
-                </div>
-                <div class="brand">
-                    <a href="https://www.meitavdash.co.il/"><img src="<?php echo get_stylesheet_directory_uri()."/img/logos/logo11.png"; ?>" alt="" width="100%"></a>
+                    <a href="https://www.meitavdash.co.il/"><img src="<?php echo get_stylesheet_directory_uri()."/img/logos/logo11.png"; ?>" alt="Brand logo" width="100%"></a>
                 </div>
             </div>
         </div>

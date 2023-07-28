@@ -38,7 +38,7 @@
             <div class="location-wrapper">
 
                 <div class="location-item" data-aos="fade-down">
-                    <img src="<?php echo get_stylesheet_directory_uri()."/img/location3.svg"; ?>" width="100%" alt="Point location">
+                    <img src="<?php echo get_stylesheet_directory_uri()."/img/location3.svg"; ?>" width="100%" alt="Turquoise point location">
                     <p class="loc-city">
                     מרכז 
                     </p>
@@ -47,7 +47,7 @@
                     </p>
                 </div>
                 <div class="location-item" data-aos="fade-down" data-aos-delay="200">
-                    <img src="<?php echo get_stylesheet_directory_uri()."/img/location2.svg"; ?>" width="100%" alt="Point location">
+                    <img src="<?php echo get_stylesheet_directory_uri()."/img/location2.svg"; ?>" width="100%" alt="Blue point location">
                     <p class="loc-city">
                         קיבוץ מעגן
                     </p>
@@ -57,7 +57,7 @@
                     </p>
                 </div>
                 <div class="location-item" data-aos="fade-down" data-aos-delay="400">
-                    <img src="<?php echo get_stylesheet_directory_uri()."/img/location1.svg"; ?>" width="100%" alt="Point location">
+                    <img src="<?php echo get_stylesheet_directory_uri()."/img/location1.svg"; ?>" width="100%" alt="Orange point location">
                     <p class="loc-city">
                         חיפה
                     </p>
