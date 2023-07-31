@@ -13,10 +13,10 @@
             <img src="<?php echo get_stylesheet_directory_uri()."/img/contact-hero-mobile.jpg"; ?>" width="100%" alt="A woman with a headset">
         </div>
 
-        <a class="moveToNextSectionBtn" href="#sectionFormContact"><i class="fa fa-angle-down"></i></a>
+        <a class="moveToNextSectionBtn" href="#contact_form"><i class="fa fa-angle-down"></i></a>
     </section>
 
-    <section id="sectionFormContact" class="contact-form" id="contact_form">
+    <section class="contact-form" id="contact_form">
         <div class="wrapper">
             <div class="contact-form-wrapper">
                 <h1 class="title"><span>

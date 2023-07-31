@@ -281,17 +281,17 @@ jQuery(document).ready(function($){
         const errors = [];
 
         if (fullName.trim() === "") {
-        fullNameError.textContent = "Full name is required";
+        fullNameError.textContent = "שם מלא הוא שדה חובה";
         errors.push("Full name is required");
         }
         
         if (phone.trim() === "") {
-        phoneError.textContent = "Phone number is required";
+        phoneError.textContent = "טלפון הוא שדה חובה";
         errors.push("Phone number is required");
         }
     
         if (email.trim() === "") {
-        emailError.textContent = "Email is required";
+        emailError.textContent = "מייל (דואר אלקטרוני) הוא שדה חובה";
         errors.push("Email is required");
         }
     
@@ -358,28 +358,21 @@ jQuery(document).ready(function($){
         );
     }
 
-    /*   Onblur   */
-    // function removeFocusAgent(element) {
-    //     console.log(element);
-    //     element.style.translate = 'translateY(0)';
-    // }
+    jQuery('.form-input').focus(function(){
+        $(this).parents('.input-wrapper').addClass('focused');
+    });
 
-    //INPUT ANIMATION
-    // const inputs = document.querySelectorAll(".agent-info");
+    jQuery('.form-input').blur(function(){
+        var inputValue = $(this).val();
+        if ( inputValue == "" ) {
+          $(this).removeClass('filled');
+          $(this).parents('.input-wrapper').removeClass('focused');  
+        } else {
+          $(this).addClass('filled');
+        }
+      }); 
 
-    // function addClass(input) {
-    // input.classList.add("agent-info--focused");
-    // }
+      /*   Contact page - form   */
 
-    // function removeClass(input) {
-    // input.classList.remove("agent-info--focused");
-    // }
-
-    // console.log(inputs)
-
-    // inputs.forEach(input => {
-    // input.addEventListener("focus", () => addClass(input))
-    // input.addEventListener("blur", () => removeClass(input))
-    // })
 
 });
