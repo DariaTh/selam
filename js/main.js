@@ -375,4 +375,7 @@ jQuery(document).ready(function($){
       /*   Contact page - form   */
 
 
+      /*   Remove tab from main slider   */
+      jQuery('#owl-homeslider .owl-stage a').attr('tabindex', '-1');
+
 });
