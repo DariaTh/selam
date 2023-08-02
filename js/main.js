@@ -373,6 +373,36 @@ jQuery(document).ready(function($){
       }); 
 
       /*   Contact page - form   */
+      document.addEventListener( 'wpcf7invalid', function( event ) {
+        if ( '40' == event.detail.contactFormId ) {
+
+            // Check empty fields
+            var inputs = event.detail.inputs;
+ 
+            for ( var i = 0; i < inputs.length; i++ ) {
+              if ( !inputs[i].value ) {
+                let elementForFocus =  document.getElementsByName(inputs[i].name)[0];
+                elementForFocus.focus();
+                break;
+              }
+            }
+
+            // Check invalid fields
+            var contactForm = document.querySelector('form');
+
+            var list = contactForm.querySelectorAll(':invalid');
+            
+            list = Array.from(list);
+
+            if(list) {
+                for (var item of list) {
+                    item.focus();
+                    break;
+                }
+            }
+          
+        }
+      }, false );
 
 
       /*   Remove tab from main slider   */
