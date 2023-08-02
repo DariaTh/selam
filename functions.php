@@ -25,11 +25,13 @@ function register_my_menu() {
     register_nav_menu('header-menu',__( 'Header Menu' ));
     register_nav_menu('footer-menu',__( 'Footer menu' ));
 }
+
 add_action( 'init', 'register_my_menu' );
 
 add_theme_support( 'post-thumbnails' );
 
 add_action( 'after_setup_theme', 'theme_functions' );
+
 function theme_functions() {
 
     add_theme_support( 'title-tag' );
@@ -139,4 +141,62 @@ function prefix_redirect_single_cpt() {
         wp_redirect( '/הסוכנים', 301 );
         exit;
     }
+}
+
+
+add_filter( 'wpcf7_validate_text', 'custom_name_confirmation_validation_filter', 5, 2 );
+
+function custom_name_confirmation_validation_filter( $result, $tag ) {
+
+    if ( 'full-name' == $tag->name ) {
+        $your_name = isset( $_POST['full-name'] ) ? trim( $_POST['full-name'] ) : '';
+
+        if ( !$your_name ) {
+            $result->invalidate( $tag, "שם מלא הוא שדה חובה" );
+        } 
+    }
+
+    return $result;
+}
+
+add_filter( 'wpcf7_validate_email', 'custom_email_confirmation_validation_filter', 5, 2 );
+  
+function custom_email_confirmation_validation_filter( $result, $tag ) {
+  if ( 'your-email' == $tag->name ) {
+    $your_email = isset( $_POST['your-email'] ) ? trim( $_POST['your-email'] ) : '';
+  
+    if ( !$your_email ) {
+      $result->invalidate( $tag, "מייל (דואר אלקטרוני) הוא שדה חובה" );
+    }
+  }
+  
+  return $result;
+}
+
+add_filter( 'wpcf7_validate_tel', 'custom_phone_confirmation_validation_filter', 5, 2 );
+  
+function custom_phone_confirmation_validation_filter( $result, $tag ) {
+  if ( 'phone' == $tag->name ) {
+    $phone = isset( $_POST['phone'] ) ? trim( $_POST['phone'] ) : '';
+  
+    if ( !$phone ) {
+      $result->invalidate( $tag, "טלפון הוא שדה חובה" );
+    }
+  }
+  
+  return $result;
+}
+
+add_filter( 'wpcf7_validate_textarea', 'custom_message_confirmation_validation_filter', 5, 2 );
+  
+function custom_message_confirmation_validation_filter( $result, $tag ) {
+  if ( 'message' == $tag->name ) {
+    $message = isset( $_POST['message'] ) ? trim( $_POST['message'] ) : '';
+  
+    if ( !$message ) {
+      $result->invalidate( $tag, "הודעה היא שדה חובה" );
+    }
+  }
+  
+  return $result;
 }
