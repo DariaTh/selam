@@ -612,6 +612,11 @@ div.wpcf7 .ajax-loader {
     position: absolute;
     left: 0;
 } */
+
+.contact-form-wrapper .wpcf7-not-valid-tip {
+    margin-top: 10px;
+}
+
 .section-form-2 .wpcf7-response-output {
     position: absolute;
     right: 0;
