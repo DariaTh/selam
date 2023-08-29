@@ -113,13 +113,13 @@ jQuery(document).ready(function($){
 
     /*   Random image on Form  1 */
 
-    selectedImg = 'url(/wp-content/themes/sela/img/form1/form-bg' + (Math.floor(Math.random() * 28) + 1) + '.png)';
+    selectedImg = 'url(/wp-content/themes/sela/img/form1/form-bg' + (Math.floor(Math.random() * 31) + 1) + '.png)';
 
     $(".section-form-1").css("background-image", selectedImg);
 
     /*   Random image on Form  2 */
 
-    f2selectedImg = 'url(/wp-content/themes/sela/img/form2/second-form-bg' + (Math.floor(Math.random() * 30) + 1) + '.png)';
+    f2selectedImg = 'url(/wp-content/themes/sela/img/form2/second-form-bg' + (Math.floor(Math.random() * 32) + 1) + '.png)';
 
     $(".section-form-2").css("background-image", f2selectedImg);
 
