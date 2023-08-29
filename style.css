@@ -1275,6 +1275,25 @@ section.inner-hero {
     }
 }
 
+/*---------- Page insurance ----------*/
+
+.insurance-list ul {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.insurance-list li {
+    font-family: Fbtextiller-Light sans-serif;
+    margin-bottom: 5px;
+    text-align: right;
+    list-style: none;
+}
+
+.insurance-title {
+    text-align: right;
+    padding-right: 40px;
+}
+
 /*---------- Products pages ----------*/
 
 .inner-hero_mobile {
