@@ -1277,6 +1277,15 @@ section.inner-hero {
 
 /*---------- Page insurance ----------*/
 
+#page-insurance-agency section.section-form-1 {
+    margin-top: -46px;
+}
+
+#page-insurance-agency a {
+    color: #000;
+    text-decoration: underline;
+}
+
 .insurance-list ul {
     text-align: center;
     margin-top: 20px;
