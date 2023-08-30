@@ -49,12 +49,10 @@
                 </span>
             </h2>
             <p class="text-block" data-aos="fade-in" data-aos-easing="linear" data-aos-duration="500">
-                <strong>
-                (הערה – במידה ויש לכם מספר מקומות יש להקפיד למלא על כל מקום בנפרד)
-                </strong>
+                (הערה – <strong> במידה ויש לכם מספר מקומות יש להקפיד למלא על כל מקום בנפרד )</strong>
                 להלן הסדרי הנגישות הקיימים במרכז קבלת הקהל הממוקמים בכתובת.............. טלפון....
             </p>
-            <ul>
+            <ul class="insurance-list">
                 <li>
                 קיימות XX חניות נכים ב ...... וחניון ..... 
                 </li>
@@ -84,7 +82,7 @@
             שירות לקוחות נגיש
             </span>
             </h2>
-            <ul>
+            <ul class="insurance-list">
                 <li>
                 מותרת כניסה למרכז קבלת הקהל לחיית שירות המיועדת לסייע לאדם עם מוגבלות.
                 </li>
@@ -157,8 +155,8 @@
             </p>
         </div>
         <div class="wrapper">
-            <h3 class="title">מידע על נגישות האתר</h3>
-            <ul>
+            <h3 class="title insurance-title">מידע על נגישות האתר</h3>
+            <ul class="insurance-list">
                 <li>
                 אתר זה עומד בדרישות תקנות שיוויון זכויות לאנשים עם מוגבלות (התאמות נגישות לשירות), התשע"ג 2013.
                 </li>
@@ -205,8 +203,8 @@
             </p>
         </div>
         <div class="wrapper">
-            <h3 class="title">פרטי רכז הנגישות ב......</h3>
-            <ul>
+            <h3 class="title insurance-title">פרטי רכז הנגישות ב......</h3>
+            <ul class="insurance-list">
                 <li>
                 שם: 
                 </li>
@@ -222,10 +220,12 @@
             </ul>
         </div>
         <div class="wrapper">
-            <h3 class="title">פרסום הצהרת הנגישות</h3>
-            <p class="text-block" data-aos="fade-in" data-aos-easing="linear" data-aos-duration="500">
-            הצהרת הנגישות עודכנה ביום: XXXX
-            </p>
+            <h3 class="title insurance-title">פרסום הצהרת הנגישות</h3>
+            <ul class="insurance-list">
+                <li>
+                הצהרת הנגישות עודכנה ביום: XXXX
+                </li>
+            </ul>
         </div>
     </section>
 
