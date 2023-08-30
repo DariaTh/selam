@@ -38,7 +38,7 @@
             ?>
         </nav>
 
-        <button onclick="window.location.href='https://clarity.co.il/regPage/LogInPage.aspx?ID=p906-73315365712036'" class="button">כניסה לקלריטי </button>
+        <button onclick="window.location.href='https://clarity.co.il/regPage/LogInPage.aspx?ID=p906-73315365712036'" class="button">כניסה למעסיקים</button>
     </div>
 
     <svg width="100%" height="400%" style="
